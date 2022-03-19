@@ -1,2 +1,4 @@
-# mlvwm-menu-script
-script to make a menu entry for mlvwm contatining all of your .desktop files
+# How to use
+* Change the `pathToAppList` variable to the path where you want this menu to be loaded.
+* Load said menu entry somewhere using `Read <pathToAppList>`
+* Have this script run in the `InitFunction` of mlvwm
