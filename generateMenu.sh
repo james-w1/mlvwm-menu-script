@@ -1,5 +1,5 @@
 #!/bin/sh
-pathToAppList=/home/jw/mlvwm-menus/.apps
+pathToAppList="$HOME"/mlvwm-menus/.apps
 
 echo "Menu Menu-Apps" > $pathToAppList
 for file in /usr/share/applications/*.desktop;
